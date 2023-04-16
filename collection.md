@@ -71,33 +71,6 @@ This IoT network traffic was captured in the Stratosphere Laboratory, AIC group,
 Description
 The IoT-23 dataset consists of twenty three captures (called scenarios) of different IoT network traffic. These scenarios are divided into twenty network captures (pcap files) from infected IoT devices and three network captures of real IoT devices network traffic. On each malicious scenario we executed a specific malware in a Raspberry Pi, that used several protocols and performed different actions. The network traffic capture for the bening scenarios was obtained by capturing the network traffic of three different IoT devices: a Philips HUE smart LED lamp, an Amazon Echo home intelligent personal assistant and a Somfy smart doorlock. It is important to mention that these three IoT devices are real hardware and not simulated. This allows us to capture and analyze real network behaviour. Both malicious and benign scenarios run in a controlled network environment with unrestrained internet connection like any other real IoT device.
 
-The following table summarized each scenario and its basic characteristics. See a more comprehensive detail of each scenario at [IoT-23 Dataset] (https://www.stratosphereips.org/datasets-iot23)
-
-Scenario #	Type	Capture Name	Malware/Device	Duration	Number of Packets	Total Flows	Total Size (GB)
-Scenario 1	Malicious	CTU-IoT-Malware-Capture-34-1	Mirai	24.000	233,000	23,146.000	0.121
-Scenario 2	Malicious	CTU-IoT-Malware-Capture-43-1	Mirai	1.000	82,000,000	67,321,810.000	6.000
-Scenario 3	Malicious	CTU-IoT-Malware-Capture-44-1	Mirai	2.000	1,309,000	238.000	1.700
-Scenario 4	Malicious	CTU-IoT-Malware-Capture-49-1	Mirai	8.000	18,000,000	5,410,562.000	1.300
-Scenario 5	Malicious	CTU-IoT-Malware-Capture-52-1	Mirai	24.000	64,000,000	19,781,379.000	4.600
-Scenario 6	Malicious	CTU-IoT-Malware-Capture-20-1	Torii	24.000	50,000	3,210.000	0.004
-Scenario 7	Malicious	CTU-IoT-Malware-Capture-21-1	Torii	24.000	50,000	3,287.000	0.004
-Scenario 8	Malicious	CTU-IoT-Malware-Capture-42-1	Trojan	8.000	24,000	4,427.000	0.003
-Scenario 9	Malicious	CTU-IoT-Malware-Capture-60-1	Gagfyt	24.000	271,000,000	3,581,029.000	21.000
-Scenario 10	Malicious	CTU-IoT-Malware-Capture-17-1	Kenjiro	24.000	109,000,000	54,659,864.000	7.800
-Scenario 11	Malicious	CTU-IoT-Malware-Capture-36-1	Okiru	24.000	13,000,000	13,645,107.000	0.992
-Scenario 12	Malicious	CTU-IoT-Malware-Capture-33-1	Kenjiro	24.000	54,000,000	54,454,592.000	3.900
-Scenario 13	Malicious	CTU-IoT-Malware-Capture-8-1	Hakai	24.000	23,000	10,404.000	0.002
-Scenario 14	Malicious	CTU-IoT-Malware-Capture-35-1	Mirai	24.000	46,000,000	10,447,796.000	3.600
-Scenario 15	Malicious	CTU-IoT-Malware-Capture-48-1	Mirai	24.000	13,000,000	3,394,347.000	1.200
-Scenario 16	Malicious	CTU-IoT-Malware-Capture-39-1	IRCBot	7.000	73,000,000	73,568,982.000	5.300
-Scenario 17	Malicious	CTU-IoT-Malware-Capture-7-1	Linux,Mirai	24.000	11,000,000	11,454,723.000	0.897
-Scenario 18	Malicious	CTU-IoT-Malware-Capture-9-1	Linux.Hajime	24.000	6,437,000	6,378,294.000	0.472
-Scenario 19	Malicious	CTU-IoT-Malware-Capture-3-1	Muhstik	36.000	496,000	156,104.000	0.056
-Scenario 20	Malicious	CTU-IoT-Malware-Capture-1-1	Hide and Seek	112.000	1,686,000	1,008,749.000	0.140
-Scenario 21	Benign	CTU-Honeypot-Capture-7-1	Soomfy Doorlock	1.4	8,276	139.000	0.002
-Scenario 22	Benign	CTU-Honeypot-Capture-4-1	Phillips HUE	24.000	21,000.000	461.000	0.004
-Scenario 23	Benign	CTU-Honeypot-Capture-5-1	Amazon Echo	5.400	398,000.000	1,383.000	0.364
-
 The password of the zip files for the binaries on each scenario is: infected
 
 10. https://github.com/yliang725/Anomaly-Detection-IoT23
