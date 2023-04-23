@@ -103,3 +103,8 @@ Tensorflow 2.4
 
 Detection and Classification of Network Traffic Anomalies
 Experiments are based on the light version of IoT-23 dataset.
+
+Here is a few more collections:
+https://www.kaggle.com/datasets/francoisxa/ds2ostraffictraces
+https://cloudstor.aarnet.edu.au/plus/s/ds5zW91vdgjEj9i
+https://github.com/thieu1995/iot_dataset 
